@@ -6,7 +6,7 @@
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://2034585da2a10034-186-220-116-13.serveousercontent.com",
+        "EXPO_PUBLIC_API_URL": "https://08a9d39d381f54c3-186-220-116-13.serveousercontent.com",
         "EXPO_PUBLIC_SUPABASE_URL": "https://whqtxmskvwqyxprfzpmm.supabase.co",
         "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndocXR4bXNrdndxeXhwcmZ6cG1tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQwMzU4MDgsImV4cCI6MjA4OTYxMTgwOH0.G8Ts6JbQLveLuHG38Hhhdt64SPi9I__D4YgjSAln3LQ"
       },
