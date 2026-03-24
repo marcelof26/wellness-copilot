@@ -1,0 +1,15 @@
+{
+  "name": "wellness-copilot",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:mobile": "npm run start --workspace=apps/mobile",
+    "build:api": "npm run build --workspace=apps/api",
+    "build:types": "npm run build --workspace=packages/types"
+  },
+  "devDependencies": {
+    "supabase": "^1.200.0"
+  }
+}
