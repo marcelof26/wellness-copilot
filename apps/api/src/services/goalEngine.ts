@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import { HealthGoal, GoalScore, BiomarkerResult, CheckIn } from '@wellness-copilot/types';
+import { HealthGoal, GoalScore, BiomarkerResult, CheckIn } from '../types';
 
 const GOAL_LABELS: Record<HealthGoal, string> = {
   energy: 'Daily Energy',

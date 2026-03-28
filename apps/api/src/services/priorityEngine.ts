@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import { HealthGoal, GoalScore, PriorityState } from '@wellness-copilot/types';
+import { HealthGoal, GoalScore, PriorityState } from '../types';
 import { calculateGoalScores } from './goalEngine';
 
 const FOCUS_LOCK_DAYS = 7;

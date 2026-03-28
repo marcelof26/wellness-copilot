@@ -1,4 +1,4 @@
-import { HealthGoal, FollowUpQuestion } from '@wellness-copilot/types';
+import { HealthGoal, FollowUpQuestion } from '../types';
 
 const FOLLOW_UP_QUESTIONS: Record<HealthGoal, FollowUpQuestion[]> = {
   energy: [

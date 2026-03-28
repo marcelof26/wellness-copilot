@@ -1,4 +1,4 @@
-import { HealthGoal } from '@wellness-copilot/types';
+import { HealthGoal } from '../types';
 
 const BLOCKED_PATTERNS = [
   /diagnos/i,

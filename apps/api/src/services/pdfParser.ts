@@ -2,7 +2,7 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const pdfParse: (buf: Buffer) => Promise<{ text: string }> = require('pdf-parse');
 import { anthropic } from '../lib/anthropic';
-import { ParsedLabDocument } from '@wellness-copilot/types';
+import { ParsedLabDocument } from '../types';
 
 const PARSE_PROMPT = `You are a lab results parser. Extract all biomarker values from the lab text below.
 

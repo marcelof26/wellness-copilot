@@ -2,7 +2,7 @@ import { Router, Response } from 'express';
 import { supabase } from '../lib/supabase';
 import { requireAuth, AuthRequest } from '../middleware/auth';
 import { getFollowUpQuestions } from '../services/followUpEngine';
-import { HealthGoal } from '@wellness-copilot/types';
+import { HealthGoal } from '../types';
 
 const router = Router();
 

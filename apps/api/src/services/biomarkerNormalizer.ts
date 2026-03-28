@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import { BiomarkerDefinition, ParsedBiomarker } from '@wellness-copilot/types';
+import { BiomarkerDefinition, ParsedBiomarker } from '../types';
 
 interface NormalizedResult {
   biomarker_id: string | null;

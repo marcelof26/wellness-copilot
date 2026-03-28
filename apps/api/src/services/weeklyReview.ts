@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabase';
-import { HealthGoal, WeeklyReview, GoalScore } from '@wellness-copilot/types';
+import { HealthGoal, WeeklyReview, GoalScore } from '../types';
 import { calculateGoalScores } from './goalEngine';
 
 export async function generateWeeklyReview(userId: string): Promise<WeeklyReview> {
