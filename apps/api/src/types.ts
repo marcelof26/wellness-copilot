@@ -105,6 +105,20 @@ export interface ParsedBiomarker {
   reference_range_low: number | null;
   reference_range_high: number | null;
   raw_text?: string;
+  source_row_text: string;
+}
+
+export interface ValidatedBiomarker {
+  raw_name: string;
+  canonical_name: string | null;
+  value: number;
+  unit: string;
+  reference_range_text: string | null;
+  reference_range_low: number | null;
+  reference_range_high: number | null;
+  source_row_text: string;
+  extraction_confidence: 'high' | 'medium' | 'low';
+  validation_notes: string[];
 }
 
 // ─── Check-ins ────────────────────────────────────────────────────────────────
